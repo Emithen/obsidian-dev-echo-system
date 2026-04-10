@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"35ae17dba04bec70","type":"file","file":"Java.md","x":140,"y":-240,"width":400,"height":120},
+		{"id":"a23a21dfbbdf2b16","type":"text","text":"# PL","x":213,"y":-353,"width":254,"height":60,"color":"5"},
+		{"id":"246ad8abf0d396f0","type":"file","file":"JDK.md","x":140,"y":20,"width":400,"height":140},
+		{"id":"0f09c7e7420cd487","type":"text","text":"# Settings","x":213,"y":-80,"width":254,"height":60},
+		{"id":"6c954a31a008b6de","type":"text","text":"# IDE","x":-267,"y":-353,"width":254,"height":60,"color":"6"},
+		{"id":"e11de7ea38672a67","type":"file","file":"IntelliJ.md","x":-340,"y":-240,"width":400,"height":120},
+		{"id":"d2d881de578ee4a3","type":"text","text":"# Test","x":1113,"y":-353,"width":254,"height":60,"color":"3"},
+		{"id":"187102cd97280310","type":"file","file":"JUnit5.md","x":1040,"y":-240,"width":400,"height":291},
+		{"id":"29248c6bc9f95de7","type":"text","text":"# Framework","x":660,"y":-353,"width":254,"height":60,"color":"4"}
+	],
+	"edges":[
+		{"id":"4de1702cafce1e6f","fromNode":"6c954a31a008b6de","fromSide":"bottom","toNode":"e11de7ea38672a67","toSide":"top"},
+		{"id":"2245b7fd6728139b","fromNode":"a23a21dfbbdf2b16","fromSide":"bottom","toNode":"35ae17dba04bec70","toSide":"top"},
+		{"id":"a5bf9b5a134a67de","fromNode":"35ae17dba04bec70","fromSide":"bottom","toNode":"0f09c7e7420cd487","toSide":"top"},
+		{"id":"3313a8d7fff6c1b1","fromNode":"0f09c7e7420cd487","fromSide":"bottom","toNode":"246ad8abf0d396f0","toSide":"top"},
+		{"id":"add941be3f50b012","fromNode":"d2d881de578ee4a3","fromSide":"bottom","toNode":"187102cd97280310","toSide":"top"}
+	]
+}
